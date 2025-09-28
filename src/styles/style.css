@@ -17,10 +17,6 @@
     text-decoration: none;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
@@ -31,7 +27,7 @@ body {
 .btn-all a {
     background-color: var(--primary-blue);
     color: var(--light-blue);
-    padding: 0.8rem;
+    padding: 0.9rem;
     margin-right: 10px;
     border-radius: 5px;
     font-weight: 600;
@@ -254,7 +250,9 @@ header {
     object-fit: cover;
     border-radius: 25px;
     box-shadow: 0 0 20px var(--primary-blue);
+    background-color: #222;
     z-index: 1;
+    transition: filter 0.5s ease-in-out;
 }
 
 .list-services {
