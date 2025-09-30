@@ -50,6 +50,7 @@ section {
 
 .title {
     color: var(--primary-blue);
+    margin-top: 5rem;
     text-align: center;
     font-size: 35px;
 }
@@ -144,7 +145,7 @@ header {
 
 /*Seção Inicial*/
 #home {
-    padding: 0 5rem;
+    padding: 0 5rem 2.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -211,7 +212,7 @@ header {
     justify-content: flex-start;
     flex-direction: column;
     gap: 4.5rem;
-    padding: 6rem 5rem;
+    padding: 0 5rem 2.5rem;
 }
 
 .box-about {
@@ -268,10 +269,6 @@ header {
     flex-direction: column;
     gap: 3rem;
     padding: 0 5rem 2.5rem;
-}
-
-#services .title {
-    margin-top: 5rem;
 }
 
 .box-services {

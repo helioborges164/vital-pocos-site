@@ -19,7 +19,8 @@
     }
 
     .title {
-        font-size: 25px;
+        font-size: 30px;
+        margin: 1.5rem 0;
     }
 
     /*Cabeçalho*/
@@ -37,15 +38,11 @@
 
     /*Seção Inicial*/
     #home {
-        min-height: 100vh;
-        padding: 5rem 2.5rem;
-        display: flex;
+        padding: 0 1.5rem;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
-        box-shadow: 0 -5px 10px var(--secondary-blue);
-        position: relative;
-        overflow: hidden;
+        box-shadow: none;
         gap: 2.5rem;
     }
 
@@ -82,8 +79,8 @@
 
     /*Seção Sobre*/
     #about {
-        padding: 3rem 2.5rem;
-        gap: 3rem;
+        padding: 0 1.5rem 1rem;
+        gap: 1.5rem;
     }
 
     .box-about {
@@ -135,11 +132,8 @@
 
     /*Seção Serviços*/
     #services {
-        padding: 5rem 2.5rem;
-    }
-
-    #services .title {
-        margin-top: 0;
+        padding: 0 1.5rem 1rem;
+        gap: 1.5rem;
     }
 
     .box-services {
@@ -147,7 +141,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
-        gap: 3rem;
+        gap: 0.5rem;
     }
 
     .list-services {
@@ -162,13 +156,12 @@
 
     .list-services h3 {
         font-size: 25px;
-        margin: 1.5rem 0;
-
+        margin-bottom: 1.5rem;
     }
 
     .list-services ul li {
         width: 340px;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
         padding: 0.5rem;
         background-color: var(--light-blue);
         border: 2px solid var(--secondary-blue);
