@@ -160,9 +160,9 @@
     }
 
     .list-services ul li {
-        width: 340px;
+        width: 100%;
         margin-bottom: 1rem;
-        padding: 0.5rem;
+        padding: 0.8rem;
         background-color: var(--light-blue);
         border: 2px solid var(--secondary-blue);
         border-radius: 10px;
