@@ -12,6 +12,18 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     })
 })
 
+const menuBtn = document.getElementById('btn-menu-mobile')
+const navListMobile = document.getElementById('navlist-mobile')
+const btnCloseMobile = document.getElementById('btn-close-mobile')
+
+menuBtn.addEventListener('click', () => {
+    navListMobile.classList.add('active')
+})
+
+navListMobile.addEventListener('click', () => {
+    navListMobile.classList.remove('active')
+})
+
 import { slides } from './images.js'
 
 let currentIndex = 0
