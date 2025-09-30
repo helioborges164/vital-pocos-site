@@ -19,7 +19,7 @@
     }
 
     .title {
-        font-size: 30px;
+        font-size: 27px;
         margin: 1.5rem 0;
     }
 
@@ -38,7 +38,7 @@
 
     /*Seção Inicial*/
     #home {
-        padding: 0 1.5rem;
+        padding: 5rem 1.5rem 0;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
@@ -79,7 +79,7 @@
 
     /*Seção Sobre*/
     #about {
-        padding: 0 1.5rem 1rem;
+        padding: 5rem 1.5rem 1rem;
         gap: 1.5rem;
     }
 
@@ -132,8 +132,9 @@
 
     /*Seção Serviços*/
     #services {
-        padding: 0 1.5rem 1rem;
-        gap: 1.5rem;
+        overflow-x: hidden;
+        padding: 5rem 1.5rem 1rem;
+        gap: 1rem;
     }
 
     .box-services {
@@ -155,14 +156,13 @@
     }
 
     .list-services h3 {
-        font-size: 25px;
-        margin-bottom: 1.5rem;
+        display: none;
     }
 
     .list-services ul li {
-        width: 100%;
+        max-width: 75%;
         margin-bottom: 1rem;
-        padding: 0.8rem;
+        padding: 0.5rem;
         background-color: var(--light-blue);
         border: 2px solid var(--secondary-blue);
         border-radius: 10px;
