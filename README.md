@@ -28,4 +28,4 @@
 <h2>🌐 Demonstração</h2>
   <a href="https://helioborges164.github.io/vital-pocos-site/">🔗 Acesse o projeto online</a>
 <h2>🖼️ Preview  </h3>
-  <img src="">
+  <img src="https://github.com/helioborges164/vital-pocos-site/blob/main/src/image/demo.png?raw=true">
